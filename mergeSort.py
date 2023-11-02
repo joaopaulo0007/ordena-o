@@ -40,6 +40,4 @@ def merge_sort(array, inicio, fim):
 def sort(array):
     merge_sort(array, 0, len(array))
 
-array = [9, 7, 5, 11, 12, 2, 14, 3, 10, 4, 6]
-sort(array)
-print(array)
+

@@ -26,7 +26,4 @@ def quick_sort(array, inicio,fim):
         quick_sort(array, q+1,fim)
 def sort(array):
     quick_sort(array,0,len(array)-1)
-array = [9, 7, 5, 11, 12, 2, 14, 3, 10, 4, 6]
-sort(array)
-print(array)
- 
+
